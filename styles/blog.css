@@ -10,7 +10,7 @@ body{
 .btn-primary{
     background-color: #FF5400;
     border: 0;
-    /* width: 400px; */
+    width: 150px;
     height: 52px;
     border-radius: 8px;
 }
@@ -54,7 +54,7 @@ body{
     border-radius: 16px;
     /* height: 500px; */
     text-align: center;
-    padding: 106px 185px;
+    padding: 106px 100px;
 }
 .banner-heading{
     color: #FFF;
@@ -66,23 +66,25 @@ body{
     color: #FFF;
     text-align: center;
     font-weight: 400;
-    padding-top: 0;
+    padding: 0 15px 45px;
 }
 .banner > .shape1{
     width: 800px;
-    height: 84px;
+    /* height: 84px; */
 }
 .shape1{
     border: 0 solid none;
     display: flex;
     gap: 24px;
     background: rgba(255, 255, 255, 0.30);
-    padding-left: 90px;
-    margin-right: 10px;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 10px;
 }
 .shape1 > input{
     border-radius: 8px;
     border: 0;
-    text-align: center;
+    text-align: left;
+    padding: 10px 10px;
     /* padding: 16px; */
 }
