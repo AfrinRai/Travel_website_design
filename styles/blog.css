@@ -221,15 +221,29 @@ footer{
 }
 .newsletter-container{
     padding-right: 100px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 300px;
+    height: 400px;
+}
+.newsletter{
+    margin-left: 30px;
+}
+#news-paragraph{
+    margin-left: 30px;
+}
+.hr-line{
+    margin-left: 30px;
+    margin-right: -70px;
 }
 .newsletter-container input{
-    width: 390px;
+    width: 310px;
     border: 0 solid none;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
-    padding: 10px;
-    margin: 10px 0;
+    padding: 15px;
+    margin: 15px 30px;
     border: 0;
 }
 .news-image-container img{
@@ -239,7 +253,9 @@ footer{
     padding-left: 100px;
 }
 #last-button{
-    width: 410px;
+    width: 340px;
+    margin-left: 30px;
+    margin-top: 15px;
 }
 #travel-button{
     height: 70px;
@@ -274,7 +290,6 @@ footer{
 }
 .last-explore-description{
     text-align: center;
-    /* padding: 15px 230px 15px 230px; */
 }
 .icons{
     text-align: center;
@@ -285,6 +300,8 @@ footer{
     margin-top: 50px;
     padding-bottom: 100px;
 }
+
+
 
 /* For small device */
 
@@ -375,5 +392,37 @@ footer{
     }
     .choose-us-heading{
         font-size: 1.25rem;
+    }
+    .travel-name-end{
+        padding: 0;   
+    }
+    .explore-end-container{
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    .explore-journey-end{
+        font-size: 1.3rem;
+        display: flex;
+        gap: 5px;
+    }
+    .last-explore-description{
+        text-align: center;
+        font-size: 0.8rem;
+        width: 280px;
+        height: 90px;
+        justify-content: center;
+        padding-left: 30px;
+    }
+    .icons{
+        display: flex;
+        gap: 30px;
+        text-align: center;
+        padding-left: 90px;
+    }
+    #reserved{
+        display: flex;
+        justify-content: center;
     }
 }
