@@ -68,38 +68,48 @@ footer{
     color: #FFF;
     font-size: 4rem;
     font-weight: 800;
-    
+    font-family: "Mulish", sans-serif;
 }
 .banner-paragraph{
     color: #FFF;
     text-align: center;
     font-weight: 400;
-    padding: 0 15px 45px;
+    padding: 0 15px 45px 215px;
+    width: 670px;
+    
 }
 
 .shape1{
     border: 0 solid none;
     display: flex;
-    gap: 24px;
+    gap: 34px;
     background: rgba(255, 255, 255, 0.30);
-    justify-content: center;
+    /* justify-content: space-between; */
     border-radius: 8px;
     padding: 10px;
+    margin-left: 180px;
+    margin-right: 180px;
 }
-.shape1 img{
+/* .shape1 img{
     width: 20px;
     height: 20px;
-}
+} */
 #diff-button{
     justify-content: space-around;
     align-items: center;
     display: flex;
 }
 .shape1 > input{
-    /* border-radius: 8px; */
-    /* border: 0; */
+    border-radius: 8px;
+    border: 0;
     text-align: left;
-    /* padding: 10px 10px; */
+    
+    /* margin-left: 50px; */
+}
+.shape1 > select{
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: 0;
 }
 
 .shape1 > input, .btn-primary{
@@ -208,7 +218,7 @@ footer{
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     margin-top: 25px;
-    margin-left: 180px;
+    margin-left: 330px;
     padding: 32px 25px 0px 32px;
     margin-bottom: 100px;
 }
@@ -225,13 +235,15 @@ footer{
     border-radius: 16px;
     border: 1px solid #FF5400;
     width: 300px;
-    height: 400px;
+    height: 470px;
 }
 .newsletter{
     margin-left: 30px;
+    margin-top: 50px;
 }
 #news-paragraph{
     margin-left: 30px;
+    margin-bottom: 50px;
 }
 .hr-line{
     margin-left: 30px;
@@ -247,10 +259,10 @@ footer{
     border: 0;
 }
 .news-image-container img{
-    width: 672px;
-    /* height: 422px; */
+    width: 800px;
+    height: 470px;
     border-radius: 16px;
-    padding-left: 100px;
+    padding-left: 110px;
 }
 #last-button{
     width: 340px;
@@ -259,8 +271,11 @@ footer{
 }
 #travel-button{
     height: 70px;
-    width: 224px;
+    width: 200px;
     transform: rotate(-19.628deg);
+    position: relative;
+    bottom: 110px;
+    left: 700px;
 }
 
 /* Footer part */
@@ -270,7 +285,7 @@ footer{
     align-items: center;
     justify-content: center;
     background: rgba(19, 19, 24, 0.05);
-    margin-top: 100px;
+    /* margin-top: 70px; */
     padding: 15px 240px 15px 240px;
 }
 .explore-end-container{
@@ -350,16 +365,28 @@ footer{
     .tour-explanation-container{
         flex-direction: column;
     }
+    .tour-explanation-heading{
+        /* display: flex; */
+        width: 380px;
+        /* padding-left: 120px; */
+        font-size: 1.4rem;
+    }
+    .tour-explanation{
+        padding-left: 155px;
+    }
     .tour-explanation-container img{
-        max-width: 100%;
+        width: 440px; 
         margin-top: 20px;
         /* position: sticky; */
         overflow-x: hidden;
+        padding-left: 140px;
     }
     .places-heading{
         text-align: center; 
         font-size: 1.25rem;
         font-weight: 800;
+        display: flex;
+        width: 240px;
     }
     #middle{
         text-align: center;
@@ -371,27 +398,80 @@ footer{
     .row{
         flex-direction: column;
         height: auto;
-        /* width: 300px; */
+        width: 450px;
+        padding-right: 30px;
+        margin-left: -110px;
     }
     .middle-card-container{
         flex-direction: column;
         gap: 20px;
     }
     .price-guarantee-container{
-        margin-left: 0;
-        width: 300px;
+        margin-left: -120px;
+        width: 400px;
         padding-bottom: 40px;
     }
-    .middle-card1{
-        width: 300px;
+    .middle-card1, .middle-card2{
+        width: 400px;
         padding-bottom: 40px;
+        margin-left: 135px;
     }
-    .middle-card2{
-        width: 300px;
-        padding-bottom: 40px;
-    }
+
     .choose-us-heading{
         font-size: 1.25rem;
+        /* display: flex; */
+        width: 190px;
+        padding-left: 5px;
+        /* height: 25px; */
+    }
+    #middle{
+        width: 390px;
+        margin-left: -80px;
+        text-align: left;
+        margin-bottom: 50px;
+    }
+    .news-image-container img{
+        padding-left: 140px;
+        width: 450px;
+        height: 350px;
+    }
+    .newsletter-container{
+        padding-right: 40px; 
+        /* padding-left: 0px; */
+        margin-top: -40px;
+        height: 500px;
+        width: 430px;
+        margin-left: 140px;
+    }
+    .newsletter{
+        padding-top: 30px;
+    }
+    #news-paragraph{
+        padding-bottom: 20px;
+        width: 310px;
+        /* height: 70px; */
+    }
+    .hr-line{
+        margin-right: -10px;
+    } 
+    .newsletter-container input{
+        width: 380px;
+        /* padding: 15px;
+        margin: 15px 30px;
+        border: 0; */
+    }
+    #last-button{
+        width: 410px;
+    }
+    #travel-button{
+        position: relative;
+        left: 380px;
+    }
+    .last-box-container{
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
     }
     .travel-name-end{
         padding: 0;   
