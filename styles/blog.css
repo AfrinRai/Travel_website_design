@@ -217,10 +217,6 @@ body{
     justify-content: space-between;
 }
 .newsletter-container{
-    /* width: 100%; */
-    /* height: auto;
-    margin: 0 auto; */
-    /* height: 1940px; */
     padding-right: 100px;
     margin-left: 100px;
 }
@@ -251,7 +247,12 @@ body{
 /* Footer part */
 
 .travel-name{
-    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+
 }
 
 
