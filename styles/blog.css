@@ -83,6 +83,15 @@ body{
     border-radius: 8px;
     padding: 10px;
 }
+.shape1 img{
+    width: 20px;
+    height: 20px;
+}
+#diff-button{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
 .shape1 > input{
     /* border-radius: 8px; */
     /* border: 0; */
@@ -198,22 +207,52 @@ body{
     margin-top: 25px;
     margin-left: 210px;
     padding: 32px 25px 0px 32px;
+    margin-bottom: 100px;
 }
 
-/* 
-For desktop
+/* Newsletter styling */
 
-@media screen and (min-width: 992) and (max-width: 1280px){
-    /* .shape1{
-        width: 800px;
-    } 
-    .btn-primary{
-        width: 150px;
-        padding: 20px 25px;
-        border: 0;
-    }
-} 
-*/
+.last-box-container{
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter-container{
+    /* width: 100%; */
+    /* height: auto;
+    margin: 0 auto; */
+    /* height: 1940px; */
+    padding-right: 100px;
+    margin-left: 100px;
+}
+.newsletter-container input{
+    width: 390px;
+    border: 0 solid none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 10px;
+    margin: 10px 0;
+    border: 0;
+}
+.news-image-container img{
+    width: 672px;
+    /* height: 422px; */
+    border-radius: 16px;
+    padding-left: 100px;
+}
+#last-button{
+    width: 410px;
+}
+#travel-button{
+    height: 70px;
+    width: 224px;
+    transform: rotate(-19.628deg);
+}
+
+/* Footer part */
+
+.travel-name{
+    display: block;
+}
 
 
 /* For small device */
