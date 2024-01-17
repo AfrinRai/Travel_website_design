@@ -74,7 +74,7 @@ footer{
     color: #FFF;
     text-align: center;
     font-weight: 400;
-    padding: 0 15px 45px 215px;
+    padding: 0 15px 45px 70px;
     width: 670px;
     
 }
@@ -87,8 +87,8 @@ footer{
     /* justify-content: space-between; */
     border-radius: 8px;
     padding: 10px;
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 50px;
+    margin-right: 20px;
 }
 /* .shape1 img{
     width: 20px;
@@ -218,8 +218,8 @@ footer{
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     margin-top: 25px;
-    margin-left: 330px;
-    padding: 32px 25px 0px 32px;
+    margin-left: 190px;
+    padding: 32px 25px 0px 30px;
     margin-bottom: 100px;
 }
 
@@ -259,10 +259,11 @@ footer{
     border: 0;
 }
 .news-image-container img{
-    width: 800px;
+    width: 570px;
     height: 470px;
     border-radius: 16px;
     padding-left: 110px;
+    margin-left: -70px;
 }
 #last-button{
     width: 340px;
@@ -275,7 +276,7 @@ footer{
     transform: rotate(-19.628deg);
     position: relative;
     bottom: 110px;
-    left: 700px;
+    left: 400px;
 }
 
 /* Footer part */
@@ -410,6 +411,7 @@ footer{
         margin-left: -120px;
         width: 400px;
         padding-bottom: 40px;
+        padding-left: 30px;
     }
     .middle-card1, .middle-card2{
         width: 400px;
@@ -431,8 +433,8 @@ footer{
         margin-bottom: 50px;
     }
     .news-image-container img{
-        padding-left: 140px;
-        width: 450px;
+        padding-left: 210px;
+        width: 480px;
         height: 350px;
     }
     .newsletter-container{
@@ -465,7 +467,7 @@ footer{
     }
     #travel-button{
         position: relative;
-        left: 380px;
+        left: 400px;
     }
     .last-box-container{
         flex-direction: column;
